@@ -1,9 +1,10 @@
 import { DioAccount } from "./DioAccount"
-
+//classe que simula linha de credito mediante deposito
+//a mesma tambem soma R$ em bonus ao deposito efetuado
 export class agroAccount extends DioAccount{
 
-    constructor(name:string, accountNumber: number){
-        super(name, accountNumber)
+    constructor(name:string, accountNumber: number, status: boolean){
+        super(name, accountNumber, status)
     }
 
     deposit = (amount: number) => {
@@ -23,7 +24,7 @@ export class agroAccount extends DioAccount{
                 console.log(`Linha de credito disponivel`)
             }else{
                 console.log("Linha de credito indisponivel no momento.")
-            }
+            }//caso nao efetuado deposito, linha de credito e bonus nao serao acionados
         }
     }
 
