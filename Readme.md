@@ -45,17 +45,24 @@ desenvolvido por [Nathally Souza](https://github.com/nathyts)
 
 ---
 
+# Projeto Atualizado:
 
-
-#Projeto Atualizado:
    Introduzi um método validateStatus para garantir que apenas contas com status verdadeiro são consideradas válidas.
+
    Na classe DioAccount, todos os atributos foram marcados como privados para fortalecer o encapsulamento.
+
    Na classe DioAccount, os métodos setName foram removidos para evitar alterações externas nos atributos name e accountNumber.
+
    Na classe DioAccount, o método deposit agora apenas adiciona ao saldo e inclui validações adequadas.
+
    Na classe AgroAccount, sobrescrevi o método deposit para adicionar um bônus de 10 ao valor do depósito.
+
    Na classe CompanyAccount, adicionei um método getLoan que deposita um valor e valida a conta antes de conceder o empréstimo.
+
    Reforcei o princípio de encapsulamento, evitando acesso direto a atributos privados e incentivando o uso de métodos público
-#Observações:
+
+# Observações:
+
     Introduzi a herança de métodos e a sobreposição em AgroAccount e CompanyAccount.
     Os métodos getLoan e deposit foram modificados para garantir comportamentos específicos e validações necessárias.
     O método validateStatus agora é crucial para verificar a validade de uma conta antes de realizar operações.
