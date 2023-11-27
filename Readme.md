@@ -63,6 +63,6 @@ desenvolvido por [Nathally Souza](https://github.com/nathyts)
 
 # Observações:
 
-    Introduzi a herança de métodos e a sobreposição em AgroAccount e CompanyAccount.
-    Os métodos getLoan e deposit foram modificados para garantir comportamentos específicos e validações necessárias.
-    O método validateStatus agora é crucial para verificar a validade de uma conta antes de realizar operações.
+  Introduzi a herança de métodos e a sobreposição em AgroAccount e CompanyAccount.
+  Os métodos getLoan e deposit foram modificados para garantir comportamentos específicos e validações necessárias.
+  O método validateStatus agora é crucial para verificar a validade de uma conta antes de realizar operações.
